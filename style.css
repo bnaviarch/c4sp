@@ -3,7 +3,7 @@
   height: 20px;
   border-radius: 10px;
   padding: 20px;
-  background-color: tomato;
+  background-color: papayawhip;
   font-color: #00d200;
   animation-name: example;
   animation-duration: 1s;
@@ -16,15 +16,15 @@
   height: 20px;
   border-radius: 10px;
   padding: 20px;
-  background-color: tomato;
+  background-color: papayawhip;
   font-color: #00d200;
 }
 
 @keyframes example {
   from {
-    background-color: tomato;
+    background-color: papayawhip;
   }
   to {
-    background-color: papayawhip;
+    background-color: tomato;
   }
 }
