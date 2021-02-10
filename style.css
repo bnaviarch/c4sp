@@ -2,7 +2,7 @@
   width: 20px;
   height: 20px;
   border-radius: 10px;
-  padding: 2px;
+  padding: 5px;
   background-color: papayawhip;
   font-color: #00d200;
   animation-name: breathing;
@@ -15,7 +15,7 @@
   width: 20px;
   height: 20px;
   border-radius: 10px;
-  padding: 2px;
+  padding: 5px;
   background-color: papayawhip;
   font-color: #00d200;
   animation-name: breathing;
@@ -29,6 +29,6 @@
     background-color: papayawhip;
   }
   to {
-    background-color: tomato;
+    background-color: skyblue;
   }
 }
