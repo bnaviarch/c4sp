@@ -2,7 +2,7 @@
   width: 20px;
   height: 20px;
   border-radius: 10px;
-  padding: 5px;
+  padding: 2px;
   background-color: papayawhip;
   font-color: #00d200;
 }
@@ -11,11 +11,11 @@
   width: 20px;
   height: 20px;
   border-radius: 10px;
-  padding: 5px;
+  padding: 2px;
   background-color: papayawhip;
   font-color: #00d200;
   animation-name: breathing;
-  animation-duration: 1s;
+  animation-duration: 0.5ms;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
