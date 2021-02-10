@@ -15,7 +15,7 @@
   background-color: papayawhip;
   font-color: #00d200;
   animation-name: breathing;
-  animation-duration: 0.5ms;
+  animation-duration: 0.5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
