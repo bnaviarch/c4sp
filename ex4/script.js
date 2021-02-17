@@ -11,9 +11,9 @@ if(age<8) {
 
 let nouns = ['doggo', 'lemur', 'banana', 'Chaka Khan & Rufus', 'Hipster Store in BK that sells both bicycles and candles']
 let verbs = ['leaps', 'attacks', 'walks', 'runs', 'smells']
-let adjectives = ['leaps', 'attacks', 'walks', 'runs', 'smells']
+let adjectives = 'powerfully'
 
-for (i = 0; i < nouns.length; i++) { 
+for (i = 0; i < nouns.length; i++) {
   var noun=nouns[i];
 }
 
@@ -26,3 +26,4 @@ for (i = 0; i < adjectives.length; i++) {
 }
 
 let sentence = `My ${noun} leaps ${adjective} when I ${verb} a rainbow in the sky.`
+console.log(sentence)
