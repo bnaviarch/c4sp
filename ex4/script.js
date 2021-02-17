@@ -8,3 +8,21 @@ if(age<8) {
 } else {
   console.log("Check out the lazy-river.");
 }
+
+let nouns = ['doggo', 'lemur', 'banana', 'Chaka Khan & Rufus', 'Hipster Store in BK that sells both bicycles and candles']
+let verbs = ['leaps', 'attacks', 'walks', 'runs', 'smells']
+let adjectives = ['leaps', 'attacks', 'walks', 'runs', 'smells']
+
+for (i = 0; i < nouns.length; i++) { 
+  var noun=nouns[i];
+}
+
+for (i = 0; i < verbs.length; i++) {
+  var verb=verbs[i];
+}
+
+for (i = 0; i < adjectives.length; i++) {
+  var adjective=adjectives[i];
+}
+
+let sentence = `My ${noun} leaps ${adjective} when I ${verb} a rainbow in the sky.`
