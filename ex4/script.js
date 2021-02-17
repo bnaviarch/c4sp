@@ -11,7 +11,7 @@ if(age<8) {
 
 let nouns = ['doggo', 'lemur', 'banana', 'Chaka Khan & Rufus', 'Hipster Store in BK that sells both bicycles and candles']
 let verbs = ['leaps', 'attacks', 'walks', 'runs', 'smells']
-let adjectives = 'powerfully'
+let adjectives = ['powerfully', 'promiscuously', 'happily', 'sadly', 'thunderously']
 
 for (i = 0; i < nouns.length; i++) {
   var noun=nouns[i];
