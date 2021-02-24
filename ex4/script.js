@@ -9,6 +9,8 @@ if(age<8) {
   console.log("Check out the lazy-river.");
 }
 
+/*
+
 let nouns = ['doggo', 'lemur', 'banana', 'Chaka Khan & Rufus', 'Hipster Store in BK that sells both bicycles and candles']
 let verbs = ['leaps', 'attacks', 'walks', 'runs', 'smells']
 let adjectives = ['powerfully', 'promiscuously', 'happily', 'sadly', 'thunderously']
@@ -25,5 +27,19 @@ for (i = 0; i < adjectives.length; i++) {
   var adjective=adjectives[i];
 }
 
-let sentence = `My ${noun} leaps ${adjective} when I ${verb} a rainbow in the sky.`
+var sentence = `My ${noun} leaps ${adjective} when I ${verb} a rainbow in the sky.`
 console.log(sentence)
+
+*/
+
+let nouns = ['doggo', 'lemur', 'banana', 'Chaka Khan & Rufus', 'Hipster Store in BK that sells both bicycles and candles']
+let verbs = ['leaps', 'attacks', 'walks', 'runs', 'smells']
+let adjectives = ['powerfully', 'promiscuously', 'happily', 'sadly', 'thunderously']
+
+let randomnoun =
+let randomverb = 
+let randomadjective =
+
+console.log(
+var sentence = `My ${randomnoun} leaps ${randomadjective} when I ${randomverb} a rainbow in the sky.`
+);
