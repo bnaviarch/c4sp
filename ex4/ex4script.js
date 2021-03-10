@@ -27,7 +27,7 @@ for (i = 0; i < adjectives.length; i++) {
   var adjective=adjectives[i];
 }
 
-var sentence = `My ${noun} leaps ${adjective} when I ${verb} a rainbow in the sky.`
+let sentence = `My ${noun} leaps ${adjective} when I ${verb} a rainbow in the sky.`
 console.log(sentence)
 
 /*
