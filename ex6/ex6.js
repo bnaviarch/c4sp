@@ -26,14 +26,36 @@ let array_one = [
 ];
 
 let array_two = [
-  "is sitting on a pile of dirty socks",
-  "is a-rockin' so don't come a-knockin'"
+  "is sitting on a pile of dirty socks.",
+  "is a-rockin' so don't come a-knockin'!",
+  "is only half of a good house because of ELEMENTAL.",
+  "would smell better if you showered once in a while.",
+  "isn't great, but the mortgage payments are decent."
 ];
 
-let random_element_from_array_one =
-  array_one[Math.floor(Math.random() * array_one.length)];
+function renderPoem() {
+  let random_element_from_array_one =
+    array_one[Math.floor(Math.random() * array_one.length)];
 
-let random_element_from_array_two =
-  array_two[Math.floor(Math.random() * array_two.length)];
+  let random_element_from_array_two =
+    array_two[Math.floor(Math.random() * array_two.length)];
 
-console.log(random_element_from_array_one)
+  let poem = document.querySelector(".poem");
+
+  let paragraph = document.createElement("p");
+
+  paragraph.textContent =
+    random_element_from_array_one + " " + random_element_from_array_two;
+
+  poem.appendChild(paragraph);
+
+  console.log(
+    `${random_element_from_array_one} \n ${random_element_from_array_two}`
+  );
+}
+
+let btn1 = document.querySelector("button1");
+btn1.addEventListener("click", renderPoem);
+
+let btn2 = document.querySelector("button2");
+btn1.addEventListener("click");
