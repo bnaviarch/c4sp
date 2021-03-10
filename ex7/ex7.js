@@ -13,7 +13,7 @@ Step 3. Write the event listener and handler
 let square = document.querySelector(".square");
 
 function moveRight() {
-  square.classlist.add("run-animation");
+  square.classList.add("run-animation");
 }
 
 square.addEventListener("click", moveRight);
