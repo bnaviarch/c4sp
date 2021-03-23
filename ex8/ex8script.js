@@ -71,6 +71,12 @@ const artists = [
   }
 ];
 
+// iterate over array of artists and print the artist name to the console
+
+artists.forEach(function(artist){
+  console.log(artist)
+});
+
 // outside the loop
 const container = document.querySelector(".container");
 
