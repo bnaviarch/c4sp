@@ -86,10 +86,10 @@ function renderArtist(artist){
   paragraph.textContext = artist_name
 
 // 4. add paragraph to DOM
-  container.appendChiled(paragraph);
+  container.appendChild(paragraph);
 }
 
-let filtered_artists = artists.filter(funtion(artist){
+let filtered_artists = artists.filter(function(artist){
   return artist.name == "David Hammons"
 })
 
