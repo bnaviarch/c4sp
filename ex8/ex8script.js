@@ -84,6 +84,8 @@ function renderArtist(artist){
   console.log(artist)
   let artist_name = artist.name
   paragraph.textContext = artist_name
+
+// 4. add paragraph to DOM
   container.appendChiled(paragraph);
 }
 
@@ -118,9 +120,11 @@ artists.forEach(function (artist) {
 
 /*----- FILTER FUNCTION -----*/
 
+/*
 
 const blackAmericanArtists = artists.filter(function (artist) {
   return artist.name == "Kerry James Marshall";
 });
 
 console.log(blackAmericanArtists);
+*/
