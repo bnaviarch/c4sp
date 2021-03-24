@@ -71,10 +71,22 @@ const artists = [
   }
 ];
 
-// iterate over array of artists and print the artist name to the console
+// iterate over array of artists and print the artist name to the console.
+
+// 1. grab the HTML element from the DOM
+
+const container = document.querySelector('.container');
 
 artists.forEach(function(artist){
-  console.log(artist)
+
+// 2. create a new p tag for each artist to render
+
+// 3. pass the name to the paragraph
+  let paragraph = document.createElement('p');
+
+  console.log(artist);
+  let artist_name = artist.name
+  paragraph.textContext = artist_name
 });
 
 // outside the loop
