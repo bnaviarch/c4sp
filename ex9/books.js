@@ -5,4 +5,11 @@ const GOOGLE_BOOKS_URL =
 
   fetch(GOOGLE_BOOKS_URL)
     .then(response => response.json())
-    .then(data => console.log(data));
+    .then(data => {
+      let items = data.items
+      for( item in items ){
+        console.log(items[item])
+        console.log(items[item]['volumeInfo'])
+        console.log(items[item]['volumeInfo']['title'])
+      }
+});
