@@ -24,7 +24,7 @@ function getBooks(){
   });
 }
 
-function renderBook(item){
+function renderBook(book){
 
   let bookItem = book.items;
 
