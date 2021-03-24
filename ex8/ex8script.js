@@ -74,13 +74,28 @@ const artists = [
 // iterate over array of artists and print the artist name to the console.
 
 // 1. grab the HTML element from the DOM
-
 const container = document.querySelector('.container');
 
-artists.forEach(function(artist){
+artists.forEach(renderArtist);
+
+function renderArtist(artist){
+  let paragraph = document.createElement('p');
+
+  console.log(artist)
+  let artist_name = artist.name
+  paragraph.textContext = artist_name
+  container.appendChiled(paragraph);
+}
+
+let filtered_artists = artists.filter(funtion(artist){
+  return artist.name == "David Hammons"
+})
+
+console.log(filtered_artists)
 
 // 2. create a new p tag for each artist to render
 
+/*
 // 3. pass the name to the paragraph
   let paragraph = document.createElement('p');
 
@@ -102,6 +117,7 @@ artists.forEach(function (artist) {
 });
 
 /*----- FILTER FUNCTION -----*/
+
 
 const blackAmericanArtists = artists.filter(function (artist) {
   return artist.name == "Kerry James Marshall";
