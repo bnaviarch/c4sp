@@ -2,13 +2,13 @@
 Base Styles
 ------------------------------------------- */
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .social {
-  color: #44545e;
-  padding-top: 30px;
-  padding-bottom: 30px;
+    color: #44545e;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /* ----------------------------------------
@@ -16,37 +16,35 @@ Typography
 ------------------------------------------- */
 
 h1 {
-  font-family: Roboto;
-  letter-spacing: 15px;
-  font-size: 40px;
+    font-family: Roboto;
+    letter-spacing: 15px;
+    font-size: 40px;
 }
 
 h2 {
-  font-family: Roboto;
-  color: #44545e;
+    font-family: Roboto;
+    color: #44545e;
 }
 
 h3 {
-  font-family: Roboto;
-  color: #44545e;
+    font-family: Roboto;
+    color: #44545e;
 
 }
 
 .text {
-  color: #44545e;
-  line-height: 26px;
-  padding-bottom: 20px;
+    color: #44545e;
+    line-height: 26px;
+    padding-bottom: 20px;
 
 }
 
 .issues a {
-  color: #7b98aa;
-  line-height: 30px;
-  font-family: Roboto;
-  font-weight: bold;
-  text-decoration: none;
-
-
+    color: #7b98aa;
+    line-height: 30px;
+    font-family: Roboto;
+    font-weight: bold;
+    text-decoration: none;
 
 }
 
@@ -61,48 +59,72 @@ Layout
 ------------------------------------------- */
 
 .title-image {
-  background-image: url(images/blog_header_bg.jpg);
-  display: inline-block;
-  color: white;
-  height: 300px;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
+    background-image: url(images/blog_header_bg.jpg);
+    display: inline-block;
+    color: white;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
 
 }
 
 .title-text {
-  top: 40%;
-  position: relative;
+    top: 40%;
+    position: relative;
 
+}
+
+.container {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+    flex-shrink: 1;
 }
 
 
 .post img {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 100%;
 }
 
 .post {
-  line-height: 1.68;
-  width: 100%;
+    line-height: 1.68;
+    width: 100%;
+}
+
+.post-date {
+    padding-left: 1%;
+}
+
+.post-title {
+    padding-left: 1%;
+}
+
+.about-us {
+/*    padding-left: 1%;*/
+    display: flex;
 }
 
 .row {
-  display: flex;
-  line-height: 1.68;
-  width: 100%;
-/*    flex-direction: row;*/
+    display: flex;
+    line-height: 1.68;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .column {
-  padding-left: 5%;
-  padding-right: 5%;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 /* ----------------------------------------
@@ -113,40 +135,31 @@ Header
 
 body,
 html {
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
-  height: 60px;
+    height: 60px;
 
 }
 
 ul.navigation {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  line-height: 60px;
-  flex-wrap: nowrap;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 60px;
+    flex-wrap: nowrap;
 
 }
 
 .navigation a {
-  color: #7b98aa;
-  text-decoration: none;
-  font-family: Roboto;
-  font-weight: bold
+    color: #7b98aa;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: bold
 }
 
-.container {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
 
 
 
@@ -161,20 +174,20 @@ Footer
 ------------------------------------------- */
 
 footer {
-  width: 100%;
-  font-size: 32px;
-  display: inline-block;
-  background-color: #ccf0ff;
-  text-align: center;
+    width: 100%;
+    font-size: 32px;
+    display: inline-block;
+    background-color: #ccf0ff;
+    text-align: center;
 }
 
 .copyright {
-  color: #44545e;
-  border-top: 3px solid;
-  font-family: Roboto;
-  font-size: 12px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    color: #44545e;
+    border-top: 3px solid;
+    font-family: Roboto;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 
 }
