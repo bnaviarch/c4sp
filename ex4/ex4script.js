@@ -9,9 +9,9 @@ if(age<8) {
   console.log("Check out the lazy-river.");
 }
 
-let nouns = ['doggo', 'lemur', 'banana', 'Chaka Khan & Rufus', 'Hipster Store in BK that sells both bicycles and candles']
-let verbs = ['leaps', 'attacks', 'walks', 'runs', 'smells']
-let adjectives = ['powerfully', 'promiscuously', 'happily', 'sadly', 'thunderously']
+let nouns = ['doggo', 'kitteh', 'banana', 'Chaka Khan & Rufus', 'Hipster stores in BK that sell both bicycles and candles']
+let verbs = ['attacks', 'leaps', 'walks', 'runs', 'smells']
+let adjectives = ['powerfully', 'happily', 'sadly', 'thunderously', 'promiscuously']
 
 for (i = 0; i < nouns.length; i++) {
   var noun=nouns[i];
