@@ -26,11 +26,11 @@ let array_one = [
 ];
 
 let array_two = [
-  "is sitting on a pile of dirty socks.",
-  "is a-rockin' so don't come a-knockin'!",
-  "is only half of a good house because of ELEMENTAL.",
-  "would smell better if you showered once in a while.",
-  "isn't great, but the mortgage payments are decent."
+  "is sitting on a pile of dirty socks",
+  "is a-rockin' so don't come a-knockin'",
+  "is only half of a good house because of ELEMENTAL",
+  "would smell better if you showered once in a while",
+  "isn't great, but the mortgage payments are decent"
 ];
 
 function renderPoem() {
