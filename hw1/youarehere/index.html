@@ -2,24 +2,24 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Get Visitor's Location Using HTML5 Geolocation</title>
+<title>you are here.</title>
 <script>
     function showPosition() {
         if(navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function(position) {
-                var positionInfo = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
+                var positionInfo = "You are here: (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
                 document.getElementById("result").innerHTML = positionInfo;
             });
         } else {
-            alert("Sorry, your browser does not support HTML5 geolocation.");
+            alert("Please try a different browser.");
         }
     }
 </script>
 </head>
 <body>
+    <button type="button" onclick="showPosition();">Please click if you are feeling lost...</button>
     <div id="result">
         <!--Position information will be inserted here-->
     </div>
-    <button type="button" onclick="showPosition();">Show Position</button>
 </body>
 </html>
