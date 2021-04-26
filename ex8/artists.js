@@ -68,7 +68,7 @@ const artists = [
           "https://www.theparisreview.org/blog/wp-content/uploads/2019/07/black-venus-1.jpg"
       }
     ]
-  }
+  },
 ];
 
 // iterate over array of artists and print the artist name to the console.
