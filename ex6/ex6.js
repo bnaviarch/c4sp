@@ -45,17 +45,38 @@ function renderPoem() {
   let paragraph = document.createElement("p");
 
   paragraph.textContent =
-    random_element_from_array_one + " " + random_element_from_array_two;
+    `${random_element_from_array_one} \n ${random_element_from_array_two}`;
 
   poem.appendChild(paragraph);
 
-  console.log(
-    `${random_element_from_array_one} \n ${random_element_from_array_two}`
-  );
 }
 
-let btn1 = document.querySelector("button1");
-btn1.addEventListener("click", renderPoem);
+let btn = document.querySelector("button");
+btn.addEventListener("click", renderPoem);
 
-let btn2 = document.querySelector("button2");
-btn1.addEventListener("click");
+/*
+function randomPoem() {
+  //   generate random elements from arrays
+  let elementOne = one[Math.floor(Math.random() * one.length)];
+  let elementTwo = two[Math.floor(Math.random() * two.length)];
+  let elementThree = three[Math.floor(Math.random() * three.length)];
+  let elementFour = four[Math.floor(Math.random() * four.length)];
+  //   grab div from DOM
+  let poem = document.querySelector(".poem");
+  //   create new p element
+  let paragraph = document.createElement("p");
+  //   add text to new element
+  paragraph.textContent = `${elementOne} for ${elementTwo} ${elementThree} at ${elementFour}`;
+  //   add p element to div
+  poem.appendChild(paragraph);
+}
+paragraph.textContent =
+  `${random_element_from_array_one} \n ${random_element_from_array_two}`
+  random_element_from_array_one + " " + random_element_from_array_two;
+console.log(
+  `${random_element_from_array_one} \n ${random_element_from_array_two}`
+);
+
+let btn = document.querySelector("button");
+btn.addEventListener("click", renderPoem);
+*/
