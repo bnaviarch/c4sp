@@ -11,11 +11,22 @@
         margin: 0px auto;
         width: 800px;
         height: 600px;
-        border-radius: 10px;
+        border: 25px;
+        border-radius: 20px;
+        padding: 50px;
       }
 
       #label-container {
-        
+        margin: 0px fixed;
+        width: 200px;
+        height: auto;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: tomato;
+        font-family: helvetica;
+        text-transform: uppercase;
+        text-align: right;
+        color: white;
       }
 
     </style>
@@ -24,7 +35,7 @@
 
   <body>
 
-    <a class="button" onclick="init()">CHECK VIBE</a>
+    <a class="button" onclick="init()" onclick="style.display = 'none'"">VIBE CHECK</a>
 
     <div id="webcam-container"></div>
 
